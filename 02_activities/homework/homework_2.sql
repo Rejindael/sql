@@ -43,7 +43,7 @@ FROM customer_purchases
 WHERE vendor_id BETWEEN 8 AND 10;
 
 --CASE
-/* 1. Products can be sold by the individual unit or by bulk measures like lbs. or oz. 
+/* 1. eProducts can be sold by the individual unit or by bulk measures like lbs. or oz. 
 Using the product table, write a query that outputs the product_id and product_name
 columns and add a column called prod_qty_type_condensed that displays the word “unit” 
 if the product_qty_type is “unit,” and otherwise displays the word “bulk.” */
