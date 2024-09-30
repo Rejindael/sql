@@ -15,7 +15,7 @@ _Hint, search type 1 vs type 2 slowly changing dimensions._
 
 Bonus: Are there privacy implications to this, why or why not?
 ```
-Your answer...
+Yes, keeping old addresses will affect data minimization principles and there might be issues with local laws and privacy protection or data retention
 ```
 
 ## Question 4
@@ -23,7 +23,9 @@ Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
 
 Highlight at least two differences between it and your ERD. Would you change anything in yours?
 ```
-Your answer...
+The AdventureWorks scheme is significantly more complex with multiple schemas and larger number of table.
+
+The address table in the person scheme uses a separate table linked to other entities through Business Entity Address table. 
 ```
 
 # Criteria
